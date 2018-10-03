@@ -1,3 +1,3 @@
 # Manakura.github.io
 
-[ ] Main site commit
+[  ] Main site commit
