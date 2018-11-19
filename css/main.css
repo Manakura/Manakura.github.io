@@ -101,12 +101,15 @@ h1.above {
     margin-left: 20vw !important;
 }
 
+.margin-right {
+    margin-right: 20vw;
+}
 
 .left-text-2 {
     text-align: left;
     margin-left: 20vw !important;
     margin-right: 20vw;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .right-text {
@@ -132,6 +135,12 @@ h1.above {
 .footer {
     background-color: #FFFFFF;
     margin: 0 0 ;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.footer.content:not(:last-child) {
+    margin-bottom: 0.3rem !important;
 }
 
 .small-text {
