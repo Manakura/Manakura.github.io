@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/helpers.css">
     <!-- <link rel="stylesheet" href="/css/debug.css"> -->
+    <link rel="stylesheet" href="bulma-0.7.1\sass\extensions\bulma-carousel.sass">
     <link rel="stylesheet" href="bulma-0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
@@ -16,7 +17,7 @@
 
 <body>
     <!--Hero-->
-    <section class="hero is-fullheight rellax" data-rellax-speed="1" id="top-bg">
+    <section class="hero is-fullheight rellax" data-rellax-speed="2.5" id="top-bg">
         <div class="hero-head">
             <div class="columns is-mobile is-marginless heading has-text-weight-bold">
                 <div class="column left">
@@ -50,14 +51,17 @@
             <svg version="1.1" id="curve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 1920 500" style="enable-background:new 0 0 1920 500;" xml:space="preserve">
             <style type="text/css">
-                .st0{fill:#222222;stroke:none;stroke-miterlimit:10;}
+                .st0{fill:#FFFFFF;stroke:none;stroke-miterlimit:10;}
+                .st1{fill:#222222;stroke:none;stroke-miterlimit:10;}
             </style>
-            <path class="st0" d="M-856.8,427.82c0,0,493.51-560.35,1218.45-206.72c513.64,250.55,569.71,187.92,1542.7,84.11
-                c989.69-105.59,952.5,1016.42,952.5,1016.42H-856.8V427.82z"/>
+            <path class="st0" d="M-822.54,413.91c0,0,457.58-287.66,1193.39-122.6c586.29,131.51,1561.58,90.12,1721.67-19.69
+            c216.55-148.54,798.59,1036.1,798.59,1036.1H-822.54V413.91z"/>
+            <path class="st1" d="M-856.8,427.82c0,0,447.1-332,1193.39-122.6c578.52,162.32,1561.58,90.12,1721.67-19.69
+                c216.55-148.54,798.59,1036.1,798.59,1036.1H-856.8V427.82z"/>
             </svg>
             
         <div class="is-mobile is-marginless">
-            <h1 data-scroll class="left-text title is-1 has-text-white padding-bottom">About us</h1>
+            <h1 data-scroll class="left-text title is-1 has-text-white padding-bottom padding-top">About us</h1>
             <div class="columns">
                 <div class="column">
                     <h3 data-scroll class="left-text has-text-white title">What do we do?</h3>
@@ -76,6 +80,26 @@
                         will give a 1-to-1 talk explaining the document in detail. Writing styles: Blogs, Mail
                         Magazines and also books. Seminar: We are focused on neuroscience based around communication.
                     </p>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="margin-left-right">
+                    <div data-scroll class="column">
+                        <i class="fas fa-book has-text-white big-text-icon"></i><br>
+                        <p class="has-text-white big-text-icon">Research</p>
+                    </div>
+                    <div data-scroll class="column">
+                        <i class="fas fa-pencil-alt has-text-white big-text-icon"></i><br>
+                        <p class="has-text-white big-text-icon">Writing</p>
+                    </div>
+                    <div data-scroll class="column">
+                        <i class="fas fa-truck has-text-white big-text-icon"></i><br>
+                        <p class="has-text-white big-text-icon">Delivery</p>
+                    </div>
+                    <div data-scroll class="column">
+                        <i class="fas fa-poll has-text-white big-text-icon"></i><br>
+                        <p class="has-text-white big-text-icon">Results</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -180,8 +204,10 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/js/bulma-extensions.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.7.1/rellax.js"></script>
     <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script src="/node_modules/bulma-extensions/bulma-calendar/dist/bulma-calendar.min.js"></script>
     <script>
         ScrollOut({
             threshhold: 1
