@@ -46,8 +46,8 @@ body {
     transition: all 0.5s;
 }
 
-.above {
-    z-index: 1 !important;
+h1.above {
+    z-index: 999999;
 }
 
 .button {
@@ -129,7 +129,7 @@ body {
     position: absolute;
     width: 100%;
     bottom: 0;
-    z-index: 1;
+    z-index: 0;
     pointer-events: none;
 }
 
