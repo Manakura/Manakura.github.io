@@ -1,3 +1,7 @@
+body {
+    background-color: #222222;
+}
+
 #top-bg {
     background: black url(../images/background-1.png);
     background-size: cover;
