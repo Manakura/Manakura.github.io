@@ -102,6 +102,7 @@ h1.above {
     .right-text,.left-text {
         margin-left: 20vw;
         margin-right: 20vw;
+        padding-bottom: 50px;
     }
 
     .icons {
@@ -120,6 +121,13 @@ h1.above {
 
 .small-text {
     font-size: 10px;
+}
+
+.question {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 0;
 }
 
 .padding-right {
