@@ -18,8 +18,8 @@
     box-shadow: 0 0 30px 5px rgba(white, white, white, 0.1) !important;
 }
 
-.big-text {
-    font-size: 16px !important;
+.big-text-top {
+    font-size: 22px !important;
 }
 
 .big-text-icon {
@@ -33,6 +33,10 @@
 
 :hover {
     transition: all 0.5s;
+}
+
+.above {
+    z-index: 1 !important;
 }
 
 .button {
@@ -54,7 +58,17 @@
 }
 
 .padding-right {
-    padding-right: 20px !important;
+    padding-right: 60px !important;
+}
+
+.left-text {
+    text-align: left;
+    margin-left: 20vw !important;
+}
+
+.right-text {
+    /* text-align: left !important; */
+    margin-right: 20vw !important;
 }
 
 .footer {
@@ -68,6 +82,28 @@
 
 .padding-right {
     padding-right: 20px !important;
+}
+
+#curve {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+[data-scroll] {
+    transition: all 2s;
+}
+
+[data-scroll="in"] {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+[data-scroll="out"] {
+    transform: translateY(200px);
+    opacity: 0;
 }
 /* Keep Div at top fixed to page */
 
