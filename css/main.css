@@ -29,7 +29,7 @@ body {
 }
 
 .big-text-top {
-    font-size: 22px !important;
+    font-size: 22px;
 }
 
 .big-text-icon {
@@ -95,6 +95,20 @@ body {
 .right-text {
     /* text-align: left !important; */
     margin-right: 20vw !important;
+}
+@media only screen and (max-width: 600px) {
+    .right-text,.left-text {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .big-text-top {
+        font-size: 12px;
+    }
 }
 
 .footer {
