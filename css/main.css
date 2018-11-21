@@ -14,7 +14,13 @@ body {
         background-size: cover;
         /* background-position: top; */
     }
+
+    #curve {
+        display: none;
+    }
 }
+
+
 
 #section2, #section3, #section4 {
     background-color: #222222;
