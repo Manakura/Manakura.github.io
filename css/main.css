@@ -125,6 +125,22 @@ h1.above {
     .big-text-top {
         font-size: 12px;
     }
+
+    #svgcurve {
+        display: none;
+    }
+
+    .stars, .big-text-icon {
+        font-size: 18px !important;
+    }
+
+    .title {
+        font-size: 20px !important;
+    }
+
+    .padding-bottom {
+        padding-bottom: 20px !important;
+    }
 }
 
 .footer {
