@@ -11,8 +11,8 @@ body {
 
 @media only screen and (max-width: 600px) {
     #top-bg {
-        background-size: fill;
-        background-position: top;
+        background-size: cover;
+        /* background-position: top; */
     }
 }
 
